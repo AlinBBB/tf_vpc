@@ -25,3 +25,8 @@ variable "enable_dns_support" {
     default = true
 }
 
+variable "map_public_ip_on_launch" {
+    type = bool
+    description = "Should be false if you do not want to auto-assign public IP on launch"
+    default = true
+}
